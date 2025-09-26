@@ -7,7 +7,7 @@ def show_header(text_title: str):
   col1, col2 = st.columns([1, 6])
 
   with col1:
-    st.image("assets/coffee.jpg", width=200)
+    st.image("assets/coffee.jpg", width=300)
   
   with col2:
     st.title(text_title)
