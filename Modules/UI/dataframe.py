@@ -1,4 +1,4 @@
-from Modules.Utils.add_df import create_df
+from Modules.Utils.add_df import coffee_data
 import streamlit as st
 import pandas as pd
 
@@ -8,7 +8,7 @@ def dataframe():
 
   df = pd.read_csv(url,index_col=0)
   
-  df = create_df(df)
+  df = coffee_data(df)
   
   # Muestra el DataFrame de forma no editable
   st.subheader('DataFrame No Editable')
