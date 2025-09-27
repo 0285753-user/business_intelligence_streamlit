@@ -1,10 +1,6 @@
 import pandas as pd
 
-url = 'https://raw.githubusercontent.com/Roby20030202/BI_FINAL_PROJECT/refs/heads/main/filtered_yelp_NJ.csv'
-
-df = pd.read_csv(url,index_col=0)
-
-def coffee_data(df)
+def coffee_data(df):
 
   columns = ['address','city','state','latitude','longitude','stars','review_count','is_open','Coffee & Tea',
       'Cafes',
