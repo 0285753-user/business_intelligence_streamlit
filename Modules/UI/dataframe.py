@@ -11,5 +11,5 @@ def all_data():
   df_coffee = coffee_data(df)
   
   # Muestra el DataFrame de forma no editable
-  st.subheader('DataFrame No Editable')
-  st.dataframe(df_coffee)
+  st.subheader('Set de Datos')
+  st.dataframe(df_coffee, width=1000)
