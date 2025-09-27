@@ -2,7 +2,7 @@ from Modules.Utils.add_df import coffee_data
 import streamlit as st
 import pandas as pd
 
-def dataframe():
+def all_data():
 
   url = 'https://raw.githubusercontent.com/Roby20030202/BI_FINAL_PROJECT/refs/heads/main/filtered_yelp_NJ.csv'
 
