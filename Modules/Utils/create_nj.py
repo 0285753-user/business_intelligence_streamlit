@@ -2,10 +2,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import geopandas as gpd # Import geopandas again
+from Modules.Utils.add_df import coffee_data
 
 url_mapa = "https://raw.githubusercontent.com/edavgaun/topojson/080eb96a46307efd0c4a31f4c11ccabeee5e97dd/countries/us-states/NJ-34-new-jersey-counties.json"
 
-def new_nj_map(url_mapa):
+df_coffee_tea = coffee_data()
+
+def new_nj_map(url_mapa, df_coffee_tea):
   # === 1. Extract county names from the geojson data ===
   # Read the geojson file again to ensure we have the data
   nj_data = gpd.read_file(url_mapa)
