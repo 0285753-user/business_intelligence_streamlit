@@ -38,4 +38,4 @@ def coffee_data(df):
   
   df_coffee_tea = df[(df['Coffee & Tea']>0) & (df['is_open']>0)]
 
-return df_coffee_tea
+  return df_coffee_tea
