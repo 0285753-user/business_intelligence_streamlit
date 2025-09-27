@@ -8,8 +8,8 @@ def dataframe():
 
   df = pd.read_csv(url,index_col=0)
   
-  df = coffee_data(df)
+  df_coffee = coffee_data(df)
   
   # Muestra el DataFrame de forma no editable
   st.subheader('DataFrame No Editable')
-  st.dataframe(df)
+  st.dataframe(df_coffee)
