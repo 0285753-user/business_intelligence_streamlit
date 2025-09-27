@@ -5,4 +5,4 @@ from Modules.UI.dataframe import all_data
 # Seccion para crear la GUI
 show_header("Organic Coffee Supplier")
 
-dataframe()
+all_data()
