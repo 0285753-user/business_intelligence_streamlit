@@ -5,7 +5,7 @@ import geopandas as gpd # Import geopandas again
 
 url_mapa = "https://raw.githubusercontent.com/edavgaun/topojson/080eb96a46307efd0c4a31f4c11ccabeee5e97dd/countries/us-states/NJ-34-new-jersey-counties.json"
 
-def nj_map(url_mapa):
+def new_nj_map(url_mapa):
   # === 1. Extract county names from the geojson data ===
   # Read the geojson file again to ensure we have the data
   nj_data = gpd.read_file(url_mapa)
