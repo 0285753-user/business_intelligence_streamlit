@@ -45,6 +45,6 @@ def filtered_data(df):
     df_specialty_new['Main_Category'] = df_specialty_new.apply(category, axis=1)
     
   
-  return df_specialty_new
+    return df_specialty_new
 
   
