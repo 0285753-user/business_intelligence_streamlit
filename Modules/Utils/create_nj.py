@@ -73,4 +73,4 @@ def new_nj_map(url_mapa, df_coffee_tea):
   axs.axis("off")
   axs.set_title("Coffee & Tea Shops in NJ", fontsize=18, weight="bold")
   plt.tight_layout()
-  plt.show()
+  st.pyplot(fig)
