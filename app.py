@@ -7,3 +7,5 @@ show_header("Organic Coffee Supplier")
 
 all_data()
 
+clean_data()
+
