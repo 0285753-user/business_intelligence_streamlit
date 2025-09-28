@@ -1,12 +1,8 @@
 from Modules.Utils.add_df import coffee_data
 import pandas as pd
 
-def filtered_data():
-
-  url = 'https://raw.githubusercontent.com/Roby20030202/BI_FINAL_PROJECT/refs/heads/main/filtered_yelp_NJ.csv'
-
-  df = pd.read_csv(url,index_col=0)
-
+def filtered_data(df):
+  
   df_coffee_tea = coffee_data(df)
 
   df_coffee = df_coffee_tea.reset_index()
